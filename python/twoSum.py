@@ -9,3 +9,7 @@ class Solution(object):
             for y in range(len(nums)):
                 if   nums[x] + nums[y] == target and x!=y:
                     return [x,y]
+
+
+n = -2 
+print(-12 == 12/-1)

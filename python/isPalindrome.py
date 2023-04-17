@@ -9,3 +9,8 @@ class Solution(object):
         if test_str == num_str:
             return True 
         return False
+
+
+pali  = Solution()
+print(pali.isPalindrome(121))
+print(pali.isPalindrome(10))
